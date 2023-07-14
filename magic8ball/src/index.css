@@ -20,3 +20,9 @@ span {
 }
 
 /* Color Palette #FFFFFF, main color #D6E9F5, BG #2D1832 border #0C2427 */
+
+/* MAGIC 8 BALL STYLES */
+
+.ball {
+  width: 650px;
+}

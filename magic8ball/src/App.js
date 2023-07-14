@@ -11,7 +11,7 @@ function App() {
         <h1>
           Magic <span>8</span> Ball
         </h1>
-        <img src={magic8ball} alt="magic8ball"/>
+        <img className="ball" src={magic8ball} alt="magic8ball"/>
         <p>Enter the temperature to get suggestions on what to wear</p>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Control type="email" />
