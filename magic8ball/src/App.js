@@ -1,6 +1,5 @@
 import React from 'react';
-import { creatRoot } from 'react-dom/client';
-import logo from './logo.svg';
+import magic8ball from './components/images/magic8ball.png';
 import './App.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -12,7 +11,7 @@ function App() {
         <h1>
           Magic <span>8</span> Ball
         </h1>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={magic8ball} alt="magic8ball"/>
         <p>Enter the temperature to get suggestions on what to wear</p>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Control type="email" />
