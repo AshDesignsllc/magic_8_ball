@@ -2,6 +2,8 @@ import React from 'react';
 import { creatRoot } from 'react-dom/client';
 import logo from './logo.svg';
 import './App.css';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
@@ -11,6 +13,12 @@ function App() {
           Magic <span>8</span> Ball
         </h1>
         <img src={logo} className="App-logo" alt="logo" />
+        <p>Enter the temperature to get suggestions on what to wear</p>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+          <Form.Control type="email" />
+          <br />
+          <Button as="input" type="submit" value="Guess my outfit" />{' '}
+        </Form.Group>
       </header>
     </div>
   );
