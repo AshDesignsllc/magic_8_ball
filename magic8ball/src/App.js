@@ -1,8 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
 import magic8ball from './components/images/magic8ball.png';
 import './App.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { Shake } from 'reshake'
+
+// class App extends Component {
+//   render () {
+//     return (
+//       <Shake 
+//         h={74}
+//         v={5}
+//         r={3}
+//         dur={30}
+//         int={10}
+//         max={100}
+//         fixed={true}
+//         fixedStop={false}
+//         freez={false}>
+//         <h1>&lt;Shake /&gt;</h1>
+//       </Shake>
+//     )
+//   }
+// }
+
 
 function App() {
   return (
