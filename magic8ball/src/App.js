@@ -35,7 +35,7 @@ function App() {
         <img className="ball" src={magic8ball} alt="magic8ball"/>
         <p>Enter the temperature to get suggestions on what to wear</p>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Control type="email" />
+          <Form.Control type="number" />
           <br />
           <Button as="input" type="submit" value="Guess my outfit" />{' '}
         </Form.Group>
