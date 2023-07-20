@@ -2,7 +2,7 @@ import React from 'react'
 
 const clothingItems = ['swimsuit or trunks', 'Jacket, top & jeans', 'Snowboots, coat & pants', 'Cotton or linen clothing', 'Don\t leave the house' ];
 
-const currentTemp = input.value;
+
 const temp = () => {
     if (currentTemp >= 75 && currentTemp <= 100) {
         return clothingItems[0];
