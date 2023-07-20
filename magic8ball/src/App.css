@@ -1,9 +1,13 @@
+body {
+  margin: 0 auto;
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2D1832;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,3 +21,31 @@
   color: #61dafb;
 }
 
+span {
+  color: hsl(193,95%,68%);
+}
+
+/* Color Palette #FFFFFF, main color #D6E9F5, BG #2D1832 border #0C2427 */
+
+/* MAGIC 8 BALL STYLES */
+
+.ball {
+  width: 550px;
+}
+
+/* BUTTON & INPUT STYLES */
+
+.form-control {
+  width: 45px;
+  height: 25px;
+}
+
+.btn.btn-primary {
+  width: 155px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
