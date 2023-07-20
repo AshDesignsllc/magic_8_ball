@@ -46,11 +46,12 @@ input {
 }
 
 button {
-  width: 155px;
+  width: 200px;
   height: 40px;
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 0.6em;
   text-transform: uppercase;
   font-weight: 600;
+  box-shadow: 4px 4px #000000;
 }

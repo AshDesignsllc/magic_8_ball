@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import BallShake from './components/ball/BallShake';
 import CurrentTemp from './components/form/Form';
 
