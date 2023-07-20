@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import BallShake from './components/ball/BallShake';
 import CurrentTemp from './components/form/Form';
 
 
@@ -11,9 +10,7 @@ function App() {
         <h1>
           Magic <span>8</span> Ball
         </h1>
-        <BallShake />
-        <p>Type the temperature below:</p>
-        <CurrentTemp form-control />
+        <CurrentTemp />
       </header>
     </div>
   );
