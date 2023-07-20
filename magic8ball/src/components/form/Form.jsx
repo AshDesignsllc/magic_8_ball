@@ -14,8 +14,8 @@ function CurrentTemp() {
        
     <form onSubmit={handleCurrentTemp}>
     <img className={isAnimating ? 'animated-image' : ''} src={magic8ball} alt="magic8ball" />
-    <p>Type the temperature below:</p>
-      <input name="temperature" placeholder="75" type="number" required />
+    <p>Enter your zipcode</p>
+      <input name="temperature" placeholder="90210" type="text" minLength={5} maxLength={5} required />
       <br />
       <button type="submit">What should I wear?</button>
     </form>

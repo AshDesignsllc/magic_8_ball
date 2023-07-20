@@ -29,6 +29,9 @@ span {
   color: hsl(193,95%,68%);
 }
 
+p {
+  text-transform: capitalize;
+}
 /* Color Palette #FFFFFF, main color #D6E9F5, BG #2D1832 border #0C2427 */
 
 /* MAGIC 8 BALL STYLES */
@@ -59,9 +62,10 @@ img {
 /* BUTTON & INPUT STYLES */
 
 input {
-  width: 45px;
+  width: 60px;
   height: 25px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 button {
